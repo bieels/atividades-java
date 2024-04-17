@@ -13,7 +13,7 @@ public class TabuadaMultiplicacao implements Tabuada {
 
     @Override
     public void mostrarTabuada() {
-        System.out.println("Tabuada de multiplicação do " + numero + ":");
+        System.out.println("Temp1.Tabuada de multiplicação do " + numero + ":");
 
         for (int i = 1; i <= 10; i++) {
             int resultado = numero * i;
